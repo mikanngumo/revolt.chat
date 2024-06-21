@@ -4,8 +4,8 @@ services:
     region: oregon
     plan: free
 c: node
-    buildCommand: yarn format
-    startCommand: yarn dev
+    buildCommand: yarn start
+    startCommand: yarn build
     envVars:
       - key: NODE_VERSION
         value: 20.0.0
