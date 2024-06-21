@@ -4,8 +4,8 @@ services:
     region: oregon
     plan: free
 c: node
-    buildCommand: pnpm install --frozen-lockfile;
-    startCommand: pnpm run build
+    buildCommand: "pnpm install --frozen-lockfile;"
+    startCommand: "pnpm run build"
     envVars:
       - key: NODE_VERSION
         value: 20.0.0
