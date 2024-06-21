@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mumei-chat
+    region: oregon
+    plan: free
+c: node
+    buildCommand: yarn build
+    startCommand: yarn dev
+    envVars:
+      - key: NODE_VERSION
+        value: 20.0.0
